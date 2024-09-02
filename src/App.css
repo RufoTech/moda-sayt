@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.roboto-slab{
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.rufina-bold {
+  font-family: "Rufina", serif;
+  font-weight: 700;
+  font-style: normal;
+
+}
+.navbar{
+  background-color: #c2efd4;
+}
+.introduction{
+  background-color: #c2efd4;
+
+}
+.nav-link{
+  color: #224F34 !important;
+  font-weight: 500;
+}
+.navbar-nav{
+  display: flex;
+  margin: auto;
+}
+.sebet{
+
+width: 30px;
+ margin-top: 7px;
+ filter: drop-shadow(5px 5px 10px green);
+
+}
+
+.sebet-ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  
+}
+.button button{
+  background-color: transparent;
+  border: none;
+  border: 2px solid #224F34;
+  width: 142px;
+  height: 52px;
+  border-radius: 5px;
+  color: #224F34;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.button button:hover{
+  background-color: #224F34;
+  color: #fff;
+  transition: .6s ease;
+  border: none;
+}
+
+.nav-link{
+  position: relative; /* Alt çizgi için pozisyonlama yap */
+
+}
+.nav-link::after {
+  content: ''; 
+  position: absolute;
+  width: 100%; 
+  height: 2px; 
+  background-color: black; /* Alt çizgi rengi */
+  left: 0;
+  bottom: -5px; /* Alt çizgiyi linkten biraz aşağıda yerleştir */
+  transform: scaleX(0); /* Başlangıçta çizgiyi gizle */
+  transform-origin: bottom right;
+  transition: transform 0.3s ease; /* Geçiş animasyonu */
+}
+.nav-link:hover::after {
+  transform: scaleX(1); /* Üzerine gelindiğinde çizgiyi göster */
+  transform-origin: bottom left;
+}
+.intro-right-side h1{
+  color: #224F34;
+  font-size: 86px;
+}
+
+
+.girl-image{
+width: 100%;;
+
+}
+.noqte{
+  width: 100px;
+
+}
+.intro-right-side h1{
+  font-size: 41px;
+}
+.intro-left-side {
+  position: relative; /* .intro-left-side'ı göreli olarak konumlandır */
+}
+
+.right-image {
+  position: relative; /* right-image'ı göreli olarak konumlandır */
+  z-index: 1; /* right-image'nin üstte olmasını sağlar */
+}
+
+.noqte-div {
+  position: absolute; /* noqte-div'i mutlak olarak konumlandır */
+  bottom:50px;
+  
+  left: 29px; 
+  z-index: 2; 
+}
+.noqte-div-2 {
+  position: absolute; /* noqte-div'i mutlak olarak konumlandır */
+top: 20px;  
+right: 178px;;
+  z-index: 2; 
+}
+.noqte,.noqte-div-2{
+  display: none;
+
+}
+
+.intro-right-side h4{
+  color: #267D49;
+}
+.intro-buton{
+  background-color: #224F34 !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+width: 220px !important; 
+height: 60px !important; 
+font-size: 20px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Siyah gölge */
+transition: box-shadow 0.3s ease; /* Gölge animasyonu */
+}
+.intro-buton:hover{
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.5); /* Üzerine gelindiğinde gölgeyi büyüt */
+
+}
+.sebet-ul,.header-buton{
+  display: none;
+}
+.text-selling h2,h5{
+  color: #224F34;
+  text-align: center
+}
+
+.mehsul-1 img{
+  background-color: #93b9a2;
+}
+
+.orta-div{
+  width: 1px !important;
+  height: 3px;
+  background-color: #dedede;
+  transform: rotate(90deg);
+  margin-top: -5px;
+}
+.price-and-raiting{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kart-mehsul{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.kart-mehsul:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+ .button-mehsul button img {
+  width: 20px !important;
+  margin-left: 10px;
+  transition: transform 0.3s ease !important;
+}
+
+.button-mehsul button:hover img {
+  transform: translateX(10px) !important;
+}
+.see-all-button{
+  width: 223px !important;
+  height: 65px !important;
+  margin-top: -30px;
+}
+.timer-section{
+  background-color: #c2efd4;
+}
+.timer-right-side h1{
+  color: #224F34;
+}
+.timer-right-side h4{
+  color: #224F34;
+}
+.box-1,.box-2,.box-3,.box-4{
+  background-color: #fff;
+  width: 100px !important;
+  height: 100px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qutular{
+  gap: 40px;
+}
+.box-text h6{
+  color: #224F34;
+
+}
+.box-text h3{
+  color: #224F34;
+
+}
+.timer-right-side{
+  padding-top: 120px;
+}
+.trailer-text{
+  color: #224F34;
+
+}
+.text-faq h1{
+  color: #224F34;
+
+}
+.faq{
+  background-color: #c2efd4;
+  
+}
+.faqs{
+  margin-left: 15px;
+}
+.feedbackimg{
+  font-size: 30px;
+}
+.custom-next, .custom-prev {
+  background-color: #93b9a2;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+ margin: 10px;
+}
+
+footer{
+  background-color: #267D49;
+
+}
+.salam{
+  padding-top: 100px !important;
+}
+.footer-linear{
+ background-color: #fff;
+ width: 80%;
+ height: 1px;
+ padding-top: 2px;
+}
+.mehsul-1 {
+  position: relative;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.mehsul-1:hover {
+  transform: scale(1.05); /* Hafif büyütme */
+  background-color: #f0f0f0; /* Arka plan rengi değişimi */
+}
+
+.ulduz{
+  background-color: transparent !important;
+}
+
+
+
+body::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari ve diğer WebKit tabanlı tarayıcılar */
+}
+
+@media(min-width:320px ) and (max-width:374px){
+
+  .intro-right-side h1{
+    font-size: 38px;
+  }
+  .timer-left-side img{
+    width: 100%;
+  }
+ 
+}
+
+@media(min-width:768px ) and (max-width:991px){
+.timer-left-side img{
+  width: 100%;
+}
+}
+
+
+@media(min-width:991px ){
+  .girl-image{
+    width: 500px;
+    
+    }
+    .noqte,.noqte-div-2{
+      display: flex;
+    
+    }
+    .intro-right-side h1{
+      font-size: 86px;
+    }
+    .introduction{
+      padding-top: 140px;
+    
+    }
+    .sebet-ul,.header-buton{
+      display: flex;
+    }
+}
+
+@media(min-width:1279px){
+  .noqte,.noqte-div-2{
+    display: none;
+  }
+  .intro-right-side h1 {
+    font-size: 84px;
+}
+}

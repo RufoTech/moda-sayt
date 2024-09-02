@@ -1,0 +1,59 @@
+[
+    {
+        "image":"/assets/images/mehsullar2/mehsullar1.svg",
+        "title":"Spread Collar Shirt",
+        "price":"$38.99",
+        "raiting":"5.0"
+        
+        
+    },
+    {
+        "image":"/assets/images/mehsullar2/mehsullar2.svg",
+        "title":"White Solid Formal Shirt",
+        "price":"$38.99",
+        "raiting":"5.0"
+        
+        
+    },
+    {
+        "image":"/assets/images/mehsullar2/mehsullar3.svg",
+        "title":"Shine On Me Blouse",
+        "price":"$38.99",
+        "raiting":"5.0"
+        
+        
+    },
+    {
+        "image":"/assets/images/mehsullar2/mehsullar4.svg",
+        "title":"Gray Solid Padded Jacket",
+        "price":"$38.99",
+        "raiting":"5.0"
+        
+        
+    },
+    {
+        "image":"/assets/images/mehsullar2/mehsullar5.svg",
+        "title":"Gray Solid Padded Jacket",
+        "price":"$38.99",
+        "raiting":"5.0"
+        
+        
+    },
+    {
+        "image":"/assets/images/mehsullar2/mehsullar6.svg",
+        "title":"Summer Wind Crop Shirt",
+        "price":"$38.99",
+        "raiting":"5.0"
+        
+        
+    },
+    {
+        "image":"/assets/images/mehsullar2/mehsullar7.svg",
+        "title":"Tailored Jacket",
+        "price":"$38.99",
+        "raiting":"5.0"
+        
+        
+    }
+    
+]

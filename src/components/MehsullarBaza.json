@@ -1,0 +1,66 @@
+[
+    {
+        "image":"/assets/images/mehsullar2/mehsullar1.svg",
+        "title":"Spread Collar Shirt",
+        "price":"$38.99",
+        "raiting":"5.0"
+        
+        
+    },
+    {
+        "image":"/assets/images/mehsullar2/mehsullar2.svg",
+        "title":"Black Crop Tailored Jacket",
+        "price":"$23.99",
+        "raiting":"5.0"
+        
+        
+    },
+    {
+        "image":"/assets/images/mehsullar2/mehsullar3.svg",
+        "title":"Textured Sunset Shirt",
+        "price":"$65.99",
+        "raiting":"5.0"
+        
+        
+    },
+    {
+        "image":"/assets/images/mehsullar2/mehsullar4.svg",
+        "title":"Spread Collar Shirt",
+        "price":"$38.99",
+        "raiting":"5.0"
+        
+        
+    },
+    {
+        "image":"/assets/images/mehsullar2/mehsullar5.svg",
+        "title":"Black Crop Tailored Jacket",
+        "price":"$23.99",
+        "raiting":"5.0"
+        
+        
+    },
+    {
+        "image":"/assets/images/mehsullar2/mehsullar6.svg",
+        "title":"Textured Sunset Shirt",
+        "price":"$65.99",
+        "raiting":"5.0"
+        
+        
+    },
+    {
+        "image":"/assets/images/mehsullar2/mehsullar4.svg",
+        "title":"Spread Collar Shirt",
+        "price":"$38.99",
+        "raiting":"5.0"
+        
+        
+    },
+    {
+        "image":"/assets/images/mehsullar2/mehsullar5.svg",
+        "title":"Black Crop Tailored Jacket",
+        "price":"$23.99",
+        "raiting":"5.0"
+        
+        
+    }
+]
